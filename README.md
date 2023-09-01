@@ -19,8 +19,10 @@ Pronto! Agora você pode acessar os seguintes serviços nos seguintes endereços
 
 Para a elaboração da resolução da questão prática da prova foram contruídos os seguintes `Dockerfile` para os seguintes serviços:
 
-- backend
-- frontend
+- backend -> [Dockerhub](https://hub.docker.com/repository/docker/lemos12/inteli-prova-1-m7-frontend/general)
+- frontend -> [Dockerhub](https://hub.docker.com/repository/docker/lemos12/inteli-prova-1-m7-backend)
+
+**Obs.: foi feito o "upload" de ambas as imagens para o dockerhub**
 
 ## 📊 Dockerfile backend
 
