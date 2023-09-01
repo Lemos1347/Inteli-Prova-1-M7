@@ -1,0 +1,15 @@
+version: "3"
+services:
+  frontend:
+    image: lemos12/inteli-prova-1-m7-frontend
+    ports:
+      - "3000:3000"
+    restart: always
+    depends_on:
+      - backend
+
+  backend:
+    image: lemos12/inteli-prova-1-m7-backend
+    ports:
+      - "8000:8000"
+    restart: always
